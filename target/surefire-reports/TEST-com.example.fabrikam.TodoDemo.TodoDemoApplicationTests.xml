@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.fabrikam.TodoDemo.TodoDemoApplicationTests" time="0" tests="1" errors="0" skipped="1" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="10.0.2+13-Ubuntu-1ubuntu0.18.04.4"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/ikramarenko/devops-mysql-spring-boot-sample"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/ikramarenko/devops-mysql-spring-boot-sample"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="10.0.2+13-Ubuntu-1ubuntu0.18.04.4"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/usr/share/maven/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="54.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="4.15.0-45-generic"/>
+    <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
+    <property name="user.home" value="/home/ikramarenko"/>
+    <property name="user.timezone" value="Europe/Kiev"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="10"/>
+    <property name="user.name" value="ikramarenko"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="10"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="10.0.2"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2018-07-17"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="contextLoads" classname="com.example.fabrikam.TodoDemo.TodoDemoApplicationTests" time="0">
+    <skipped/>
+    <system-out><![CDATA[14:24:24.418 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.example.fabrikam.TodoDemo.TodoDemoApplicationTests]
+14:24:24.437 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+14:24:24.456 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+14:24:24.491 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.example.fabrikam.TodoDemo.TodoDemoApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+14:24:24.522 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.fabrikam.TodoDemo.TodoDemoApplicationTests], using SpringBootContextLoader
+14:24:24.538 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.fabrikam.TodoDemo.TodoDemoApplicationTests]: class path resource [com/example/fabrikam/TodoDemo/TodoDemoApplicationTests-context.xml] does not exist
+14:24:24.539 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.fabrikam.TodoDemo.TodoDemoApplicationTests]: class path resource [com/example/fabrikam/TodoDemo/TodoDemoApplicationTestsContext.groovy] does not exist
+14:24:24.540 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.fabrikam.TodoDemo.TodoDemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+14:24:24.543 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.fabrikam.TodoDemo.TodoDemoApplicationTests]: TodoDemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:24:24.626 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.example.fabrikam.TodoDemo.TodoDemoApplicationTests]
+14:24:24.646 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+14:24:24.648 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+14:24:24.649 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+14:24:24.668 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/example/fabrikam/TodoDemo/] to resources [URL [file:/home/ikramarenko/devops-mysql-spring-boot-sample/target/test-classes/com/example/fabrikam/TodoDemo/], URL [file:/home/ikramarenko/devops-mysql-spring-boot-sample/target/classes/com/example/fabrikam/TodoDemo/]]
+14:24:24.668 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/home/ikramarenko/devops-mysql-spring-boot-sample/target/test-classes/com/example/fabrikam/TodoDemo]
+14:24:24.669 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/home/ikramarenko/devops-mysql-spring-boot-sample/target/test-classes/com/example/fabrikam/TodoDemo] for files matching pattern [/home/ikramarenko/devops-mysql-spring-boot-sample/target/test-classes/com/example/fabrikam/TodoDemo/*.class]
+14:24:24.687 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/home/ikramarenko/devops-mysql-spring-boot-sample/target/classes/com/example/fabrikam/TodoDemo]
+14:24:24.688 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/home/ikramarenko/devops-mysql-spring-boot-sample/target/classes/com/example/fabrikam/TodoDemo] for files matching pattern [/home/ikramarenko/devops-mysql-spring-boot-sample/target/classes/com/example/fabrikam/TodoDemo/*.class]
+14:24:24.691 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/example/fabrikam/TodoDemo/*.class] to resources [file [/home/ikramarenko/devops-mysql-spring-boot-sample/target/test-classes/com/example/fabrikam/TodoDemo/TodoDemoApplicationTests.class], file [/home/ikramarenko/devops-mysql-spring-boot-sample/target/classes/com/example/fabrikam/TodoDemo/TodoDemoApplication.class], file [/home/ikramarenko/devops-mysql-spring-boot-sample/target/classes/com/example/fabrikam/TodoDemo/TodoDemoController.class], file [/home/ikramarenko/devops-mysql-spring-boot-sample/target/classes/com/example/fabrikam/TodoDemo/TodoItem.class], file [/home/ikramarenko/devops-mysql-spring-boot-sample/target/classes/com/example/fabrikam/TodoDemo/TodoItemRepository.class], file [/home/ikramarenko/devops-mysql-spring-boot-sample/target/classes/com/example/fabrikam/TodoDemo/TodoListViewModel.class]]
+14:24:24.801 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/home/ikramarenko/devops-mysql-spring-boot-sample/target/classes/com/example/fabrikam/TodoDemo/TodoDemoApplication.class]
+14:24:24.815 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.fabrikam.TodoDemo.TodoDemoApplication for test class com.example.fabrikam.TodoDemo.TodoDemoApplicationTests
+14:24:24.826 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.example.fabrikam.TodoDemo.TodoDemoApplicationTests]: using defaults.
+14:24:24.837 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+14:24:24.897 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@11392934, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6892b3b6, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6e6f2380, org.springframework.test.context.support.DirtiesContextTestExecutionListener@76a4ebf2, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2e8c1c9b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@53fe15ff, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@449a4f23, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1530c739, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5b1669c0, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@78e4deb0, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6e9175d8, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7d0b7e3c]
+14:24:24.905 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.fabrikam.TodoDemo.TodoDemoApplicationTests]
+14:24:24.906 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.fabrikam.TodoDemo.TodoDemoApplicationTests]
+14:24:24.915 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.example.fabrikam.TodoDemo.TodoDemoApplicationTests]
+14:24:24.915 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+14:24:24.916 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+14:24:24.917 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.example.fabrikam.TodoDemo.TodoDemoApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+14:24:24.918 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.fabrikam.TodoDemo.TodoDemoApplicationTests], using SpringBootContextLoader
+14:24:24.920 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.fabrikam.TodoDemo.TodoDemoApplicationTests]: class path resource [com/example/fabrikam/TodoDemo/TodoDemoApplicationTests-context.xml] does not exist
+14:24:24.921 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.fabrikam.TodoDemo.TodoDemoApplicationTests]: class path resource [com/example/fabrikam/TodoDemo/TodoDemoApplicationTestsContext.groovy] does not exist
+14:24:24.922 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.fabrikam.TodoDemo.TodoDemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+14:24:24.923 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.fabrikam.TodoDemo.TodoDemoApplicationTests]: TodoDemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:24:24.937 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.example.fabrikam.TodoDemo.TodoDemoApplicationTests]
+14:24:24.938 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+14:24:24.938 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+14:24:24.939 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+14:24:24.939 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.fabrikam.TodoDemo.TodoDemoApplication for test class com.example.fabrikam.TodoDemo.TodoDemoApplicationTests
+14:24:24.943 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.example.fabrikam.TodoDemo.TodoDemoApplicationTests]: using defaults.
+14:24:24.955 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+14:24:24.963 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@35841320, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@61c4eee0, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6f10d5b6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1040be71, org.springframework.test.context.transaction.TransactionalTestExecutionListener@548a24a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@433defed, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2a693f59, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3f4faf53, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7fd50002, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@533bda92, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@304bb45b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@723ca036]
+14:24:24.964 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.fabrikam.TodoDemo.TodoDemoApplicationTests]
+14:24:24.965 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.fabrikam.TodoDemo.TodoDemoApplicationTests]
+14:24:24.966 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.fabrikam.TodoDemo.TodoDemoApplicationTests]
+14:24:24.966 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.fabrikam.TodoDemo.TodoDemoApplicationTests]
+]]></system-out>
+  </testcase>
+</testsuite>

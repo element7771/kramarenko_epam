@@ -1,0 +1,20 @@
+version: '2.1'
+services:
+  web:
+    image: "ikramarenko7771/kramarenko_epam:v1"
+    ports:
+     - "8080:8080"
+    depends_on:
+      mysql:
+        condition: service_healthy
+  mysql:
+    image: "mysql:5.7"
+    restart: always
+    container_name: mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=tododb 
+    healthcheck:
+      test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
+      timeout: 20s
+      retries: 10
