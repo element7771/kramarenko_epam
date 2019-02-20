@@ -18,23 +18,6 @@ node('AWS_Client2') {
     }
 }
 
-node('AWS_Client1'){
-
-    stage('pull image'){
-        sh "docker pull ikramarenko7771/kramarenko_epam:v1"
-    }
-    
-    stage('stop/delite all containers'){
-       sh "docker stop \$(docker ps -a -q) || true"
-       sh "docker rm \$(docker ps -a -q) || true"
-    }
-
-    stage('run image') {
-        sh "docker-compose -f /home/ubuntu/workspace/kramarenko_epam:v1/docker-compose.yml up -d"
-    }
-    
-}
-
 node('AWS_Client2'){
 
     stage('pull image'){
@@ -52,3 +35,22 @@ node('AWS_Client2'){
     }
     
 }
+
+node('AWS_Client1'){
+
+    stage('pull image'){
+        sh "docker pull ikramarenko7771/kramarenko_epam:v1"
+    }
+    
+    stage('stop/delite all containers'){
+       sh "docker stop \$(docker ps -a -q) || true"
+       sh "docker rm \$(docker ps -a -q) || true"
+    }
+
+    stage('run image') {
+        sh "docker-compose -f /home/ubuntu/workspace/kramarenko_epam:v1/docker-compose.yml up -d"
+    }
+    
+}
+
+
