@@ -1,4 +1,4 @@
-version: '2'
+version: '3'
 services:
   web:
     image: "ikramarenko7771/kramarenko_epam:v1"
