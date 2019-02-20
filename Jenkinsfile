@@ -13,7 +13,7 @@ node('AWS_Client2') {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("ikramarenko7771/kramarenko_epam")
+        app = docker.build("ikramarenko7771/kramarenko_epam:v1")
         app.push()
     }
 }
@@ -21,7 +21,7 @@ node('AWS_Client2') {
 node('AWS_Client1'){
 
     stage('pull image'){
-        sh "docker pull ikramarenko7771/kramarenko_epam"
+        sh "docker pull ikramarenko7771/kramarenko_epam:v1"
     }
     
     stage('stop/delite all containers'){
@@ -30,7 +30,7 @@ node('AWS_Client1'){
     }
 
     stage('run image') {
-        sh "docker-compose -f /home/ubuntu/workspace/kramarenko_epam/docker-compose.yml up -d"
+        sh "docker-compose -f /home/ubuntu/workspace/kramarenko_epam:v1/docker-compose.yml up -d"
     }
     
 }
@@ -38,7 +38,7 @@ node('AWS_Client1'){
 node('AWS_Client2'){
 
     stage('pull image'){
-        sh "docker pull ikramarenko7771/kramarenko_epam"
+        sh "docker pull ikramarenko7771/kramarenko_epam:v1"
     }
     
     stage('stop/delite all containers'){
@@ -48,7 +48,7 @@ node('AWS_Client2'){
 
 
     stage('run image') {
-        sh "docker-compose -f /home/ubuntu/workspace/kramarenko_epam/docker-compose.yml up -d"
+        sh "docker-compose -f /home/ubuntu/workspace/kramarenko_epam:v1/docker-compose.yml up -d"
     }
     
 }
