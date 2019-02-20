@@ -31,7 +31,7 @@ node('AWS_Client2'){
 
 
     stage('run image') {
-        sh "docker-compose -f /home/ubuntu/workspace/kramarenko_epam/docker-compose.yml up -d"
+        sh "docker-compose -f /home/ubuntu/workspace/ikramarenko_epam/docker-compose.yml up -d"
     }
     
 }
@@ -48,7 +48,7 @@ node('AWS_Client1'){
     }
 
     stage('run image') {
-        sh "docker-compose -f /home/ubuntu/workspace/kramarenko_epam/docker-compose.yml up -d"
+        sh "docker-compose -f /home/ubuntu/workspace/ikramarenko_epam/docker-compose.yml up -d"
     }
     
 }
