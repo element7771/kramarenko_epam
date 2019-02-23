@@ -45,6 +45,7 @@ node('AWS_Client1') {
     stage('stop/delite all containers'){
        sh "docker stop \$(docker ps -a -q) || true"
        sh "docker rm \$(docker ps -a -q) || true"
+       sh "wget https://github.com/element7771/kramarenko_epam/blob/master/docker-compose.yaml /home/ubuntu/workspace/ikramarenko_epam/docker-compose.yaml"       
     }
 
     stage('run image') {
