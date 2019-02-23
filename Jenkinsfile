@@ -18,7 +18,7 @@ node('AWS_Client2') {
     }
 }
 
-node('AWS_Client2'){
+node('AWS_Client2') {
 
     stage('pull image'){
         sh "docker pull ikramarenko7771/kramarenko_epam:v1"
@@ -36,7 +36,7 @@ node('AWS_Client2'){
     
 }
 
-node('AWS_Client1'){
+node('AWS_Client1') {
 
     stage('pull image'){
         sh "docker pull ikramarenko7771/kramarenko_epam:v1"
